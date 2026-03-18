@@ -11,7 +11,7 @@ on:
       agent_description:
         description: 'kehed03'
         required: true
-        default: 'kehed03 Agent'
+        default: 'kehed03 AI Agent'
 
 jobs:
   verify:
@@ -39,5 +39,5 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "kehed03", "description": "kehed03 Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "kehed03", "description": "kehed03 AI Agent"}'
           
